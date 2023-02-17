@@ -1,7 +1,16 @@
 [package]
-name = "obj"
+name = "objectify"
+license = "MIT"
+description = "A crappy object file manipulation tool/library."
+homepage = "https://github.com/32Bites/obj"
+readme = "README.md"
+authors = ["Noah Shanaberger <noah@thenoah.party>"]
 version = "0.1.0"
 edition = "2021"
+
+[[bin]]
+name = "obj"
+path = "src/main.rs"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

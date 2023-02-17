@@ -1,6 +1,6 @@
 use std::{env, fs, path::PathBuf};
 
-use obj::elf_to_bin;
+use objectify::elf_to_bin;
 use object::{read::elf::ElfFile32, LittleEndian};
 
 fn main() {
