@@ -52,7 +52,7 @@ where
                     written_bytes += fill_amount as usize;
 
                     for _ in 0..fill_amount {
-                        writer.write(&[0x00])?;
+                        writer.write_all(&[0x00])?;
                     }
                 }
             }
