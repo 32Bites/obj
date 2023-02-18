@@ -14,7 +14,7 @@ authors = ["Noah Shanaberger <noah@thenoah.party>"]
 comfy-table = "6.1.4"
 heck = "0.4.1"
 clap = { version = "4.1.6", features = ["derive"] }
-objectify = { version = "0.2.3", path = "../" }
+objectify = { version = "^0.2", path = "../" }
 symbolic-demangle = "11.1.0"
 
 [[bin]]
