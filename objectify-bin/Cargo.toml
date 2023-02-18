@@ -1,6 +1,6 @@
 [package]
 name = "objectify-bin"
-version = "0.2.1"
+version = "0.2.3"
 edition = "2021"
 license = "MIT"
 description = "A crappy object file manipulation tool/library."
@@ -14,7 +14,7 @@ authors = ["Noah Shanaberger <noah@thenoah.party>"]
 comfy-table = "6.1.4"
 heck = "0.4.1"
 clap = { version = "4.1.6", features = ["derive"] }
-objectify = { version = "0.2.0", path = "../" }
+objectify = { version = "0.2.3", path = "../" }
 symbolic-demangle = "11.1.0"
 
 [[bin]]
