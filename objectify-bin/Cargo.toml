@@ -1,6 +1,6 @@
 [package]
 name = "objectify-bin"
-version = "0.2.0"
+version = "0.2.1"
 edition = "2021"
 license = "MIT"
 description = "A crappy object file manipulation tool/library."
