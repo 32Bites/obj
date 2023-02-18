@@ -5,9 +5,9 @@ description = "A crappy object file manipulation tool/library."
 homepage = "https://github.com/32Bites/obj"
 readme = "README.md"
 authors = ["Noah Shanaberger <noah@thenoah.party>"]
-version = "0.2.1"
+version = "0.2.2"
 edition = "2021"
-default-run = "obj"
+# default-run = "obj"
 
 [workspace]
 members = ["objectify-bin"]
@@ -17,6 +17,6 @@ default-members = ["objectify-bin"]
 object = "0.30.3"
 # goblin = "0.6.0"
 
-[[bin]]
-name = "obj"
-path = "objectify-bin"
+# [[bin]]
+# name = "obj"
+# path = "objectify-bin"
