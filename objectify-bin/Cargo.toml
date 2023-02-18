@@ -1,0 +1,22 @@
+[package]
+name = "objectify-bin"
+version = "0.2.0"
+edition = "2021"
+license = "MIT"
+description = "A crappy object file manipulation tool/library."
+homepage = "https://github.com/32Bites/obj"
+readme = "../README.md"
+authors = ["Noah Shanaberger <noah@thenoah.party>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+comfy-table = "6.1.4"
+heck = "0.4.1"
+clap = { version = "4.1.6", features = ["derive"] }
+objectify = { version = "0.2.0", path = "../" }
+symbolic-demangle = "11.1.0"
+
+[[bin]]
+name = "obj"
+path = "src/main.rs"

@@ -5,15 +5,18 @@ description = "A crappy object file manipulation tool/library."
 homepage = "https://github.com/32Bites/obj"
 readme = "README.md"
 authors = ["Noah Shanaberger <noah@thenoah.party>"]
-version = "0.1.1"
+version = "0.2.0"
 edition = "2021"
+default-run = "obj"
+
+[workspace]
+members = ["objectify-bin"]
+default-members = ["objectify-bin"]
+
+[dependencies]
+object = "0.30.3"
+# goblin = "0.6.0"
 
 [[bin]]
 name = "obj"
-path = "src/main.rs"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
-prettytable-rs = "0.10.0"
-object = "0.30.3"
+path = "objectify-bin"
